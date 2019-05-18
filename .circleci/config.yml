@@ -1,0 +1,10 @@
+# JavaScript Node.js CircleCI 2.0 configuration file
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/node:latest-browsers
+    steps:
+      - checkout
+      - run: npm install
+      - run: npm run test:unit
