@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start": "npm run build:client && babel-node server/bin/www",
+    "start": "babel-node server/bin/www",
     "server": "nodemon server/bin/www --exec babel-node --presets babel-preset-env",
     "client": "vue-cli-service serve",
     "build:client": "vue-cli-service build",
