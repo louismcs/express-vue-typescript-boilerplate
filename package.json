@@ -26,6 +26,7 @@
     "dotenv": "^8.0.0",
     "express-subdomain": "^1.0.5",
     "morgan": "^1.9.1",
+    "postcss-loader": "^3.0.0",
     "vue": "^2.6.10",
     "vue-class-component": "^7.1.0",
     "vue-property-decorator": "^8.1.1",
