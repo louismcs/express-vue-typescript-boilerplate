@@ -6,4 +6,4 @@ router.get('/test', function(req, res, next) {
     res.send('Hello API 1');
 });
 
-export default router;
+module.exports = router;

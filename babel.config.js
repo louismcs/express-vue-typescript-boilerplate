@@ -1,3 +1,3 @@
 module.exports = {
-    presets: ['env', '@vue/app']
+    presets: ['@babel/preset-env', '@vue/app']
 };
